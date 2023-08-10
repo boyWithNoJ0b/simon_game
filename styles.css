@@ -51,7 +51,34 @@ body {
   background-color: yellow;
 }
 
+
+
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .btn {
+    width: 100px;
+    height: 100px;
+  }
+
+  .startButton {
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FEF2BF;
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 700;
+  }
+  
+  
 }
