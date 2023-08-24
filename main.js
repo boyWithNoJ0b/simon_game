@@ -115,7 +115,7 @@ const checkAnswer = (currentLevel) => {
       $("body").removeClass("game-over");
     }, 200);
 
-    $("#level-title").text("Game Over, Press Any Key to Restart");
+    $("#level-title").text(`Game Over, Your Score is ${level- 1}, Press Any Key to Restart`);
 
     if(window.screen.width < 600) {
         startButton.style.visibility = "visible"
